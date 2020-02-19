@@ -1,27 +1,87 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 html,body{
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     font-family: 'Poppins', sans-serif;
     color: black;
 }
+
+.container-fluid{
+    margin: 0px;
+    width: 100%;
+
+}
+
 .navbar{
+    position: relative;
     background: white !important; 
 }
+
 .navbar-nav{
     padding: 10px 0 0 100px;
 }
 
 .nav-link{
-    padding-right: 20px !important;
-    font-size: 13px;
+    width: auto !important;
+    text-align: center;
+    margin-right: 25px !important;
+    font-size: 14px;
     font-weight: bold;
     color: #07277f !important;
+    white-space: nowrap;
 }
 .active{
     display: block;
-    color: #e0c438 !important;
-    border-bottom: solid 5px #e0c438 ;
+    width: 100%;
+    height: 32px;
+    border-bottom: solid 4px #A07837 ;
+
+}
+
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #A07837;
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+#navbarResponsive button{
+    border: none;
+    padding-right: 10px;
+    display: block;
+    background: white;
+    color: #A07837;
+    position: relative;
+}
+#banner{ 
+    padding-top: 0;
+    width: 100%;
+    position: relative;
+}
+.trietly{
+    position: relative;
+    line-height: 50px;
+    height: 100px;
+    padding-bottom: 50px;
     text-align: center;
+    margin-top: 30px;
+    box-shadow: 10px 0 10px 0 #888888;
+}
+.row img{
+    width: 100% !important;
+    padding-bottom: 40px;
+
+}
+#logo{
+    margin-left: 0px;
+    position: absolute; 
+    background: black;
 }
