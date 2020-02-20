@@ -20,135 +20,187 @@
   </head>
   <body>
     <!-- Bắt đầu tạo Menu với navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <div class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="#">TRANG CHỦ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">GIỚI THIỆU</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">DỰ ÁN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">TRUYỀN THÔNG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">TUYỂN DỤNG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">LIÊN HỆ</a>
-                    </li>
-                    <button>EN</button>
-                    <button href ="#"><i class="fa fa-search"></i></button>
-                </div>
-            </div>
+    <div class="header">
+        <nav class="navbar navbar-inverse navbar-expand-xl navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="navbar-nav">
+                        <li class="nav-item ">
+                            <a id ="special" class="nav-link active" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#">DỰ ÁN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#">TRUYỀN THÔNG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#">TUYỂN DỤNG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#">LIÊN HỆ</a>
+                        </li>
+                        <a class="btn" href="#">EN</a>
+                        <a class="btn" href="#"><i class="fa fa-search"></i></a>
 
-        </div>
-    </nav>
+                </div>
+
+            </div>
+        </nav>
+    </div>
     <!-- Kết thúc tạo Menu với navbar -->
 
     <!-- Tạo banner website -->
-    <div class="container">
-        <img id="banner" src="images/banner.jpg" width= 100% alt = "Banner website">
-    </div>
-
-    <div class="container">
-        <div class="trietly">
-        <h6>Triết lý kinh doanh</h6>
-        <p>Mang lại Giá trị cho Khách hàng thông qua sản phẩm và dịch vụ của mình, 
-            đồng thời đóng góp cho cộng đồng, xã hội và nền kinh tế.</p>
+    <div class="banner">
+        <div class="container">
+            <img id="banner" src="images/banner.jpg" width= 100% alt = "Banner website">
         </div>
     </div>
 
-    <div class="container padding">
-        <div class="row text-center padding">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src ="images/1.jpg">
-                <p>4 tuyến đường chính Thủ Thiêm</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src ="images/2.jpg">
-                <p>Quảng trường Trung tâm và Công viên Bờ sông</p>
-
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src ="images/3.jpg">
-                <p>Cầu Thủ Thiêm 2</p>
-
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src ="images/4.jpg">
-                <p>Vùng châu thổ phía Nam</p>
-
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src ="images/5.jpg">
-                <p>Cầu đi bộ</p>
-
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src ="images/6.jpg">
-                <p>Khu đô thị Sala</p>
-
+    <div class="trietly container">
+        <div class="container">
+            <h6>Triết lý kinh doanh</h6>
+            <p>Mang lại Giá trị cho Khách hàng thông qua sản phẩm và dịch vụ của mình, 
+                đồng thời đóng góp cho cộng đồng, xã hội và nền kinh tế.</p>
         </div>
     </div>
-    <div class="container padding">
-        <h5>TIN TỨC - TRUYỀN THÔNG</h5>
-        <div class="row text-center padding">
-            <div class="col-xs-12 col-sm-6">
-                <img src ="images/7.jpg">
-                <p>Tiến độ thi công các dự án BT tại Thủ Thiêm tính đến ngày 03.05.2018</p>
-                <p>Đến thời điểm hiện tại, các dự án BT tại Thủ Thiêm đáp ứng tiến độ đã cam kết.
-                Dự án 04 tuyến đường chính đã hoàn thành phần không vướng giải phóng mặt bằng vào tháng 02 năm 2017 theo đúng tiến độ hợp đồng BT và đã bàn giao đưa vào khai thác các phân đoạn kết nối với các tuyến đường hiện hữu.
-                Phần vướng giải phóng mặt bằng đang chờ Thành phố bàn giao để sớm hoàn thành và đưa vào sử dụng .
-                </p>
+    <div class="duan hover01">
+        <div class="container padding">
+            <div id ="image-main" class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <img src ="images/1.jpg">
+                    <p>4 tuyến đường chính Thủ Thiêm</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <img src ="images/2.jpg">
+                    <p>Quảng trường Trung tâm và Công viên Bờ sông</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <img src ="images/3.jpg">
+                    <p>Cầu Thủ Thiêm 2</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <img src ="images/4.jpg">
+                    <p>Vùng châu thổ phía Nam</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <img src ="images/5.jpg">
+                    <p>Cầu đi bộ</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <img src ="images/6.jpg">
+                    <p>Khu đô thị Sala</p>
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6"> <img src ="images/8.jpg"></div>
-                    <div class="col-xs-12 col-sm-6">
-                        <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
-                        <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6"> <img src ="images/8.jpg"></div>
-                    <div class="col-xs-12 col-sm-6">
-                        <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
-                        <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6"> <img src ="images/8.jpg"></div>
-                    <div class="col-xs-12 col-sm-6">
-                        <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
-                        <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6"> <img src ="images/8.jpg"></div>
-                    <div class="col-xs-12 col-sm-6">
-                        <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
-                        <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container text-left padding hover01 right-img">
+            <h5>TIN TỨC - TRUYỀN THÔNG</h5>
+            <div class="row padding">
+                <div class="col-xs-12 col-sm-6">
+                    <img src ="images/7.jpg">
+                    <p>Tiến độ thi công các dự án BT tại Thủ Thiêm tính đến ngày 03.05.2018</p>
+                    <p>Đến thời điểm hiện tại, các dự án BT tại Thủ Thiêm đáp ứng tiến độ đã cam kết.
+                    Dự án 04 tuyến đường chính đã hoàn thành phần không vướng giải phóng mặt bằng vào tháng 02 năm 2017 theo đúng tiến độ hợp đồng BT và đã bàn giao đưa vào khai thác các phân đoạn kết nối với các tuyến đường hiện hữu.
+                    Phần vướng giải phóng mặt bằng đang chờ Thành phố bàn giao để sớm hoàn thành và đưa vào sử dụng .
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-6 ">
+                    <div class="row ">
+                        <div class="col-xs-12 col-sm-6"><img src ="images/8.jpg"></div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
+                            <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6"> <img src ="images/9.jpg"></div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
+                            <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6"> <img src ="images/10.jpg"></div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
+                            <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6"> <img src ="images/11.jpg"></div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p>Tiến độ thi công các dự án BT tính đến ngày 20.12.2017</p>
+                            <p>Thời điểm cuối năm 2017, chuẩn bị bước sang năm 2018, các dự án BT tại Đô thị mới Thủ...</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="logo" class="container-fluid">
-            hellworld
+    <div id="hello" class="container-fluid">
+        <div class="container">
+            <div class="row">
+              <div class="col col1">
+                <h5>Giới thiệu</h5>
+                <a href="#">Giới thiệu</a><br>
+                <a href="#">Tầm nhìn - Sứ mệnh</a>
+              </div>
+              <div class="col col2">
+                <h5>Truyền thông</h5>
+                <a href="#">Tiến độ dự án</a><br>
+                <a href="#">Tin tức - Sự kiệnh</a>
+              </div>
+              <div class="col col3">
+                <h5>Tuyển dụng</h5>
+                <a href="#">Chính sách tuyển dụng</a><br>
+                <a href="#">Vị trí tuyển dụng</a>  
+              </div>
+              <div class="col col4">
+                <h5>Đối tác</h5>
+                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+              </div>
+              <div class="col col5">Column 5</div>
+            </div>
+          </div>
     </div>
 
-    <div class="footer">
-        <div class="container-fluid">
-            ABCĐ
+    <!-- Footer -->
+    <footer class="page-footer font-small teal pt-4">
+
+        <!-- Footer Text -->
+        <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+            <p>CÔNG TY CỔ PHẦN ĐẦU TƯ ĐỊA ỐC ĐẠI QUANG MINH
+                Địa chỉ: 10 Mai Chí Thọ, Đô thị mới Thủ Thiêm, Quận 2, Tp. Hồ Chí Minh.
+                Điện thoại: (+84-28) 3742 5566 hoặc (+84-28) 3742 5578
+                Fax: (+84-28) 3742 5578
+                Email: info@dqmcorp.vn        Website: www.dqmcorp.vn
+            </p>
+
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-6 mb-md-0 mb-3">
+            <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
+            <p>Copyright © 2015 - 2020 Đại Quang Minh</p>
+            </div>
         </div>
-    </div>
-
-
-    <!-- Kết thúc tạo banner website -->
+        </div>
+    </footer>
   </body>
 
 
